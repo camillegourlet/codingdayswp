@@ -1,3 +1,115 @@
-body {
-  background-color: blue;
+ul {
+    text-align: center;
+    margin: 0;
+    }
+li {
+        display: inline-block;
+        margin: 15px;
+        width: 42%;
+        font-size: 25px;
+        color: grey;
+        margin: 0;
+    }
+.S1 {
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+        width: 100%;
 }
+nav {
+    background: rgba(138, 43, 226, 0.31);
+    position: fixed;
+width: 100%;
+text-align: center;
+}
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: fuchsia;
+    text-align: center;;
+    margin: 0;
+}
+h2 {
+    font-family: monospace;
+    text-align: left;
+    font-size: 20px;
+}
+p.§1 {
+    text-align: justify;
+    font-weight: bold;
+font-size: 20px;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px;
+position: absolute;
+}
+.ptwk {
+height: 500px;
+width: 1000px
+}
+span {
+    font-size: 40px;
+    color: bisque;
+}
+.ptwk {
+    height: 220px;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+left: 0;
+}
+section.S2 {
+    position: absolute;
+    width: 100%;
+    margin-top: 400px;
+    text-align: center;
+}
+article.S1A1 {
+    position: relative;
+
+}
+article.S2A1 {
+    width: 33%;
+    display: inline-block;
+}
+article.S2A2 {
+    width: 33%;
+    display: inline-block;
+}
+article.S2A3 {
+    width: 33%;
+    display: inline-block;
+}
+.img{
+  height: 100px
+}
+@media screen and (max-width: 800px) {
+  article.S2A1 {
+      width: 100%;
+  }
+  }
+@media screen and (max-width: 800px) {
+    article.S2A2 {
+        width: 100%;
+    }
+    }
+@media screen and (max-width: 800px) {
+      article.S2A3 {
+          width: 100%;
+      }
+      }
+
+
+@media screen and (max-width: 800px) {
+          .ptwk {
+            height: 400px
+          }
+          }
+@media screen and (max-width: 800px) {
+        section.S2 {
+            margin-top: 600px;
+        }
+        }

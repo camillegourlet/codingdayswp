@@ -23,5 +23,15 @@
 </head>
 <body>
 	<header class="header">
-		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
+		<nav>
+	    <h1> Welcome ! </h1>
+	    <ul>
+	      <li>
+	      Votre coffre-fort
+	      </li>
+	      <li>
+	      SOS Concierge
+	      </li>
+	    </ul>
+	  </nav>
 	</header>
